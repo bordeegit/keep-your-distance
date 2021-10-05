@@ -1,4 +1,4 @@
-# keep-your-distance
+# Keep Your Distance
 Social distancing simulation using TinyOS, Cooja and Node-Red.  
 Final Project for the Internet of Things course of Politecnico di Milano.  
   
