@@ -1,0 +1,196 @@
+# Log file of the Cooja Simulation
+# Only a couple of interactions will be commented since the log file it's repetitive and self explainatory
+# We preferred to omit the "sending broadcast message" prints in order to improve the readability of the log file
+# For a more detailed explanation take a look at the Report
+
+
+  TIME       ID		   MESSAGE
+		# Radios turning on 
+00:04.323	ID:2	RADIO TURNED ON
+00:04.337	ID:6	RADIO TURNED ON
+00:04.435	ID:4	RADIO TURNED ON
+00:04.469	ID:1	RADIO TURNED ON
+00:04.802	ID:5	RADIO TURNED ON
+00:04.986	ID:3	RADIO TURNED ON
+		# Mote 1 in range of Mote 2, start reciving consecutive messages
+00:06.283	ID:1	Non consecutive message recived from mote 2, streak resetted
+00:06.429	ID:2	Non consecutive message recived from mote 1, streak resetted
+00:06.778	ID:1	Consecutive message recived from mote 2, streak is 2
+00:06.922	ID:2	Consecutive message recived from mote 1, streak is 2
+00:07.260	ID:1	Consecutive message recived from mote 2, streak is 3
+00:07.413	ID:2	Consecutive message recived from mote 1, streak is 3
+00:07.751	ID:1	Consecutive message recived from mote 2, streak is 4
+00:07.897	ID:2	Consecutive message recived from mote 1, streak is 4
+00:08.242	ID:1	Consecutive message recived from mote 2, streak is 5
+00:08.386	ID:2	Consecutive message recived from mote 1, streak is 5
+00:08.724	ID:1	Consecutive message recived from mote 2, streak is 6
+00:08.870	ID:2	Consecutive message recived from mote 1, streak is 6
+00:09.218	ID:1	Consecutive message recived from mote 2, streak is 7
+00:09.358	ID:2	Consecutive message recived from mote 1, streak is 7
+00:09.706	ID:1	Consecutive message recived from mote 2, streak is 8
+00:09.852	ID:2	Consecutive message recived from mote 1, streak is 8
+00:10.192	ID:1	Consecutive message recived from mote 2, streak is 9
+00:10.340	ID:2	Consecutive message recived from mote 1, streak is 9
+00:10.685	ID:1	Consecutive message recived from mote 2, streak is 10
+		# Mote 1 recieved 10 cons. messages from Mote 2, triggers the ALERT
+00:10.688	ID:1	Recived 10 consecutive messages from mote 2, SENDING ALERT!
+		# The alert is a message with ego_ID and sender_ID (more on the Report)
+00:10.689	ID:1	1 2
+00:10.828	ID:2	Consecutive message recived from mote 1, streak is 10
+		# Same process for Mote 2
+00:10.831	ID:2	Recived 10 consecutive messages from mote 1, SENDING ALERT!
+00:10.832	ID:2	2 1
+		# After the alert is sent, the streak is resetted back to 1
+00:11.173	ID:1	Consecutive message recived from mote 2, streak is 1
+00:11.318	ID:2	Consecutive message recived from mote 1, streak is 1
+00:11.654	ID:1	Consecutive message recived from mote 2, streak is 2
+00:11.807	ID:2	Consecutive message recived from mote 1, streak is 2
+		# Mote 1 in range of Mote 3, start reciving consecutive messages
+00:13.268	ID:3	Non consecutive message recived from mote 1, streak resetted
+00:13.298	ID:1	Non consecutive message recived from mote 3, streak resetted
+00:13.758	ID:3	Consecutive message recived from mote 1, streak is 2
+00:13.786	ID:1	Consecutive message recived from mote 3, streak is 2
+00:14.241	ID:3	Consecutive message recived from mote 1, streak is 3
+00:14.277	ID:1	Consecutive message recived from mote 3, streak is 3
+00:14.731	ID:3	Consecutive message recived from mote 1, streak is 4
+00:14.765	ID:1	Consecutive message recived from mote 3, streak is 4
+00:15.218	ID:3	Consecutive message recived from mote 1, streak is 5
+00:15.251	ID:1	Consecutive message recived from mote 3, streak is 5
+00:15.711	ID:3	Consecutive message recived from mote 1, streak is 6
+00:15.736	ID:1	Consecutive message recived from mote 3, streak is 6
+00:16.195	ID:3	Consecutive message recived from mote 1, streak is 7
+00:16.225	ID:1	Consecutive message recived from mote 3, streak is 7
+00:16.683	ID:3	Consecutive message recived from mote 1, streak is 8
+00:16.714	ID:1	Consecutive message recived from mote 3, streak is 8
+00:17.170	ID:3	Consecutive message recived from mote 1, streak is 9
+00:17.202	ID:1	Consecutive message recived from mote 3, streak is 9
+00:17.662	ID:3	Consecutive message recived from mote 1, streak is 10
+00:17.664	ID:3	Recived 10 consecutive messages from mote 1, SENDING ALERT!
+00:17.665	ID:3	3 1
+00:17.694	ID:1	Consecutive message recived from mote 3, streak is 10
+00:17.696	ID:1	Recived 10 consecutive messages from mote 3, SENDING ALERT!
+00:17.697	ID:1	1 3
+00:18.149	ID:3	Consecutive message recived from mote 1, streak is 1
+00:18.182	ID:1	Consecutive message recived from mote 3, streak is 1
+00:20.555	ID:1	Non consecutive message recived from mote 4, streak resetted
+00:20.590	ID:4	Non consecutive message recived from mote 1, streak resetted
+00:21.051	ID:1	Consecutive message recived from mote 4, streak is 2
+00:21.077	ID:4	Consecutive message recived from mote 1, streak is 2
+00:21.537	ID:1	Consecutive message recived from mote 4, streak is 3
+00:21.567	ID:4	Consecutive message recived from mote 1, streak is 3
+00:22.022	ID:1	Consecutive message recived from mote 4, streak is 4
+00:22.057	ID:4	Consecutive message recived from mote 1, streak is 4
+00:22.510	ID:1	Consecutive message recived from mote 4, streak is 5
+00:22.542	ID:4	Consecutive message recived from mote 1, streak is 5
+00:22.997	ID:1	Consecutive message recived from mote 4, streak is 6
+00:23.037	ID:4	Consecutive message recived from mote 1, streak is 6
+00:23.488	ID:1	Consecutive message recived from mote 4, streak is 7
+00:23.521	ID:4	Consecutive message recived from mote 1, streak is 7
+00:23.977	ID:1	Consecutive message recived from mote 4, streak is 8
+00:24.011	ID:4	Consecutive message recived from mote 1, streak is 8
+00:24.469	ID:1	Consecutive message recived from mote 4, streak is 9
+00:24.502	ID:4	Consecutive message recived from mote 1, streak is 9
+00:24.951	ID:1	Consecutive message recived from mote 4, streak is 10
+00:24.954	ID:1	Recived 10 consecutive messages from mote 4, SENDING ALERT!
+00:24.954	ID:1	1 4
+00:24.991	ID:4	Consecutive message recived from mote 1, streak is 10
+00:24.993	ID:4	Recived 10 consecutive messages from mote 1, SENDING ALERT!
+00:24.994	ID:4	4 1
+00:25.444	ID:1	Consecutive message recived from mote 4, streak is 1
+00:25.475	ID:4	Consecutive message recived from mote 1, streak is 1
+00:25.928	ID:1	Consecutive message recived from mote 4, streak is 2
+00:25.961	ID:4	Consecutive message recived from mote 1, streak is 2
+00:27.764	ID:1	Non consecutive message recived from mote 5, streak resetted
+00:27.782	ID:1	Non consecutive message recived from mote 6, streak resetted
+00:27.914	ID:5	Non consecutive message recived from mote 1, streak resetted
+00:27.914	ID:6	Non consecutive message recived from mote 1, streak resetted
+00:28.250	ID:1	Consecutive message recived from mote 5, streak is 2
+00:28.275	ID:1	Consecutive message recived from mote 6, streak is 2
+00:28.407	ID:6	Consecutive message recived from mote 1, streak is 2
+00:28.407	ID:5	Consecutive message recived from mote 1, streak is 2
+00:28.735	ID:1	Consecutive message recived from mote 5, streak is 3
+00:28.766	ID:1	Consecutive message recived from mote 6, streak is 3
+00:28.889	ID:5	Consecutive message recived from mote 1, streak is 3
+00:28.889	ID:6	Consecutive message recived from mote 1, streak is 3
+00:29.229	ID:1	Consecutive message recived from mote 5, streak is 4
+00:29.245	ID:1	Consecutive message recived from mote 6, streak is 4
+00:29.380	ID:5	Consecutive message recived from mote 1, streak is 4
+00:29.380	ID:6	Consecutive message recived from mote 1, streak is 4
+00:29.711	ID:1	Consecutive message recived from mote 5, streak is 5
+00:29.739	ID:1	Consecutive message recived from mote 6, streak is 5
+00:29.874	ID:6	Consecutive message recived from mote 1, streak is 5
+00:29.874	ID:5	Consecutive message recived from mote 1, streak is 5
+00:30.203	ID:1	Consecutive message recived from mote 5, streak is 6
+00:30.224	ID:1	Consecutive message recived from mote 6, streak is 6
+00:30.354	ID:5	Consecutive message recived from mote 1, streak is 6
+00:30.354	ID:6	Consecutive message recived from mote 1, streak is 6
+00:30.689	ID:1	Consecutive message recived from mote 5, streak is 7
+00:30.716	ID:1	Consecutive message recived from mote 6, streak is 7
+00:30.845	ID:6	Consecutive message recived from mote 1, streak is 7
+00:30.845	ID:5	Consecutive message recived from mote 1, streak is 7
+00:31.183	ID:1	Consecutive message recived from mote 5, streak is 8
+00:31.203	ID:1	Consecutive message recived from mote 6, streak is 8
+00:31.339	ID:5	Consecutive message recived from mote 1, streak is 8
+00:31.339	ID:6	Consecutive message recived from mote 1, streak is 8
+00:31.663	ID:1	Consecutive message recived from mote 5, streak is 9
+00:31.694	ID:1	Consecutive message recived from mote 6, streak is 9
+00:31.824	ID:5	Consecutive message recived from mote 1, streak is 9
+00:31.824	ID:6	Consecutive message recived from mote 1, streak is 9
+00:32.160	ID:1	Consecutive message recived from mote 5, streak is 10
+00:32.163	ID:1	Recived 10 consecutive messages from mote 5, SENDING ALERT!
+00:32.163	ID:1	1 5
+00:32.184	ID:1	Consecutive message recived from mote 6, streak is 10
+00:32.187	ID:1	Recived 10 consecutive messages from mote 6, SENDING ALERT!
+00:32.187	ID:1	1 6
+00:32.309	ID:6	Consecutive message recived from mote 1, streak is 10
+00:32.309	ID:5	Consecutive message recived from mote 1, streak is 10
+00:32.312	ID:6	Recived 10 consecutive messages from mote 1, SENDING ALERT!
+00:32.312	ID:5	Recived 10 consecutive messages from mote 1, SENDING ALERT!
+00:32.312	ID:6	6 1
+00:32.312	ID:5	5 1
+00:32.643	ID:1	Consecutive message recived from mote 5, streak is 1
+00:32.672	ID:1	Consecutive message recived from mote 6, streak is 1
+00:32.801	ID:5	Consecutive message recived from mote 1, streak is 1
+00:32.801	ID:6	Consecutive message recived from mote 1, streak is 1
+00:33.129	ID:1	Consecutive message recived from mote 5, streak is 2
+00:33.155	ID:1	Consecutive message recived from mote 6, streak is 2
+00:33.286	ID:5	Consecutive message recived from mote 1, streak is 2
+00:33.286	ID:6	Consecutive message recived from mote 1, streak is 2
+00:33.625	ID:1	Consecutive message recived from mote 5, streak is 3
+00:33.646	ID:1	Consecutive message recived from mote 6, streak is 3
+00:33.775	ID:5	Consecutive message recived from mote 1, streak is 3
+00:33.775	ID:6	Consecutive message recived from mote 1, streak is 3
+00:34.106	ID:1	Consecutive message recived from mote 5, streak is 4
+00:34.134	ID:1	Consecutive message recived from mote 6, streak is 4
+00:34.269	ID:5	Consecutive message recived from mote 1, streak is 4
+00:34.269	ID:6	Consecutive message recived from mote 1, streak is 4
+00:34.597	ID:1	Consecutive message recived from mote 5, streak is 5
+00:34.624	ID:1	Consecutive message recived from mote 6, streak is 5
+00:36.564	ID:1	Non consecutive message recived from mote 2, streak resetted
+00:36.702	ID:2	Non consecutive message recived from mote 1, streak resetted
+00:37.050	ID:1	Consecutive message recived from mote 2, streak is 2
+00:37.197	ID:2	Consecutive message recived from mote 1, streak is 2
+00:37.540	ID:1	Consecutive message recived from mote 2, streak is 3
+00:37.680	ID:2	Consecutive message recived from mote 1, streak is 3
+00:38.025	ID:1	Consecutive message recived from mote 2, streak is 4
+00:38.169	ID:2	Consecutive message recived from mote 1, streak is 4
+00:38.511	ID:1	Consecutive message recived from mote 2, streak is 5
+00:38.658	ID:2	Consecutive message recived from mote 1, streak is 5
+00:39.005	ID:1	Consecutive message recived from mote 2, streak is 6
+00:39.151	ID:2	Consecutive message recived from mote 1, streak is 6
+00:39.485	ID:1	Consecutive message recived from mote 2, streak is 7
+00:39.636	ID:2	Consecutive message recived from mote 1, streak is 7
+00:39.980	ID:1	Consecutive message recived from mote 2, streak is 8
+00:40.120	ID:2	Consecutive message recived from mote 1, streak is 8
+00:40.465	ID:1	Consecutive message recived from mote 2, streak is 9
+00:40.614	ID:2	Consecutive message recived from mote 1, streak is 9
+00:40.958	ID:1	Consecutive message recived from mote 2, streak is 10
+00:40.960	ID:1	Recived 10 consecutive messages from mote 2, SENDING ALERT!
+00:40.961	ID:1	1 2
+00:41.096	ID:2	Consecutive message recived from mote 1, streak is 10
+00:41.099	ID:2	Recived 10 consecutive messages from mote 1, SENDING ALERT!
+00:41.099	ID:2	2 1
+00:41.443	ID:1	Consecutive message recived from mote 2, streak is 1
+00:41.592	ID:2	Consecutive message recived from mote 1, streak is 1
+00:41.933	ID:1	Consecutive message recived from mote 2, streak is 2
+00:42.074	ID:2	Consecutive message recived from mote 1, streak is 2
